@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-def update_dictionary(my_dict, key, value):
+def print_sorted_dictionary(a_dictionary):
 
-    my_dict.update({key: value})
-    return my_dict
+    sorted_keys = sorted(a_dictionary.keys())
+    for key in sorted_keys:
+        print(f"{key:s}: {a_dictionary.get(key)}")
