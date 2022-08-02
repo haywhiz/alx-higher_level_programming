@@ -5,6 +5,7 @@
 
 
 class BaseGeometry:
+    '''class BaseGeometry (based on 6-base_geometry.py)'''
     def area(self):
         '''
             Calculating the area
