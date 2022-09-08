@@ -13,3 +13,4 @@ GROUP BY
 ORDER BY
         avg_temp DESC
 LIMIT
+        3;

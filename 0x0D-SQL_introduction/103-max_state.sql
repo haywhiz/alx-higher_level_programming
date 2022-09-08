@@ -8,3 +8,4 @@ FROM
 GROUP BY
         state
 ORDER BY
+        state;
