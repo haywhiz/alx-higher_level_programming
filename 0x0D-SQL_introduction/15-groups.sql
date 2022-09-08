@@ -8,3 +8,4 @@ FROM
 GROUP BY
     score
 ORDER BY
+    number DESC;
